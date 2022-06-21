@@ -462,4 +462,126 @@ live section start
 .sponsor-section-header .subheadline {
   color: #fff;
 }
-/* sponsor start end */ ;
+/* sponsor end */
+/* -----------
+testimonial slider start
+------
+ */
+.article-nine {
+  padding-top: 120px;
+  padding-bottom: 120px;
+}
+.testimonial-sec .sec-heading {
+  margin-bottom: 8rem;
+}
+
+#testimonial .client-img img {
+  width: 100%;
+}
+#testimonial .carousel-content {
+  padding: 20px 0px 20px 100px;
+  width: 70%;
+  margin: 0 auto;
+  position: relative;
+}
+#testimonial h3 {
+  font-size: 17px;
+  color: #fff;
+  margin-bottom: 30px;
+  font-style: italic;
+  text-align: right;
+}
+#testimonial p {
+  font-size: 15px;
+}
+#testimonial .carousel-control-prev,
+#testimonial .carousel-control-next {
+  font-size: 36px;
+}
+blockquote {
+  display: block;
+  font-family: "Montserrat", sans-serif;
+  margin: 0;
+  font-size: 1.5625em;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 1.5em;
+  position: relative;
+  padding: 2em 0 0;
+}
+blockquote:before {
+  content: "\201c";
+  opacity: 1.1;
+  display: block;
+  font-size: 6.4em;
+  line-height: 1;
+  position: absolute;
+  top: -2.25rem;
+  left: -2.625rem;
+  font-weight: 700;
+  color: white;
+}
+.testimonial-slider .carousel-content {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+.imgae-round img {
+  border-radius: 50%;
+}
+/* -----------
+testimonial slider end
+------
+ */
+/* -----------
+always upt to date----*/
+.border-style-solid {
+  border-color: rgba(24, 24, 24, 0.1);
+}
+.separator {
+  line-height: 0;
+  display: block;
+  clear: both;
+}
+.separator.border-style-solid {
+  border-bottom: 1px solid #ccc;
+  margin-top: 3rem;
+}
+.separator.border-style-solid {
+  margin-bottom: 3rem;
+}
+.row-inner {
+  margin: 0px 20px;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-between;
+  align-content: stretch;
+  align-content: flex-start;
+}
+.row-inner .column-inner {
+  display: flex;
+  justify-content: start;
+  flex-flow: column nowrap;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+.content-wrap {
+  display: inline-flex;
+  flex-flow: row nowrap;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+.service-content {
+  padding-left: 1.25rem;
+}
+.icon-box i {
+  color: #fff;
+}
+.content-title {
+  color: #fff;
+  font-weight: bold;
+}
+.service-content-text {
+  color: #fff;
+}
