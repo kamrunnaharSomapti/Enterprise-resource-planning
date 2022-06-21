@@ -37,7 +37,7 @@
       <!-- nav plus hero slider -->
       <section id="heroSlider" class="slider-container hero-slider">
         <nav
-          class="navbar navbar-expand-lg navbar-light fixed-top hero-slider-nav"
+          class="nav-bg navbar navbar-expand-lg navbar-light fixed-top hero-slider-nav "
           id="heroSliderNav"
         >
           <div class="container">
@@ -74,10 +74,11 @@
             </div>
           </div>
         </nav>
-        <div
+        <div 
           id="carouselExampleIndicators"
           class="carousel slide"
           data-ride="carousel"
+          data-interval="false"
         >
           <ol class="carousel-indicators">
             <li
@@ -87,24 +88,26 @@
             ></li>
             <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
           </ol>
-          <div class="carousel-inner">
-            <div class="carousel-item active">
+          <div class="carousel-inner slides">
+            <div class="carousel-item active slide">
               <img
-                class="d-block w-100"
+                class="d-block w-100 img-fluid"
                 src="../Images/hero-slider.jpg"
                 alt="Second slide"
               />
-              <div class="carousel-caption d-none d-md-block">
+              <div class="slide-content carousel-caption d-none d-md-block">
                 <div class="container">
                   <div class="hero-slider-content">
                     <span>Cloud ERP in Bangladesh</span>
-                    <h2>AlterscenseERP serving independent platform</h2>
-                    <h3>on different sectors of business</h3>
+                    <div class="hero-slider-text">
+                      <h2 class="">AlterscenseERP serving independent platform</br>
+                   on different sectors of business</h2>
                     <p>
                       AlterscenseERP caters ERP solution in more than 20+ different
                       industries
                     </p>
                     <p>across the globe &amp; local market in Bangladesh</p>
+                    </div>
                   </div>
                   <div class="hero-action-btn">
                     <a href="/solutions/" class="btn solid-btn"
