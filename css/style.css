@@ -117,7 +117,7 @@ navbar
   height: 100%;
 }
 .hero-slider-content span {
-  background-color: rgba(0, 114, 246, 0.75);
+  background-color: #ec1c24;
   font-size: 15px;
   opacity: 1;
   padding: 2px 15px;
@@ -162,9 +162,9 @@ navbar
 }
 .hero-action-btn a {
   padding: 10px 20px;
-  border: 1px solid #1476f2;
+  border: 1px solid #ec1c24;
   color: #ffffff;
-  background: #1476f2;
+  background: #ec1c24;
   transition: all 0.3s ease-in;
   font-family: "Roboto", sans-serif;
 }
