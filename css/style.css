@@ -26,6 +26,9 @@ a {
 a:hover {
   text-decoration: none;
 }
+.section-bg-2 {
+  background-color: #192430;
+}
 .same-heading-text h2 {
   font-size: 30px;
   font-family: "Montserrat";
@@ -93,6 +96,11 @@ navbar
 }
 .fixed-top.scrolled .site-name {
   color: #555;
+}
+.fixed-top.scrolled {
+  background-color: #111d2a !important;
+  transition: background-color 200ms linear;
+  box-shadow: 2px 2px 6px #00000063;
 }
 @media only screen and (max-width: 767px) {
   .navbar-nav.ml-auto {
@@ -191,6 +199,16 @@ navbar
   color: #fff;
   text-align: center;
 }
+.carousel-item {
+  height: 70vh;
+  min-height: 350px;
+  background: no-repeat center center scroll;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
 /*slide end*/
 
 /* who we are start */
@@ -314,6 +332,11 @@ p {
   margin-bottom: 15px;
   margin-right: 15px;
 }
+.center-image-with-link img {
+  text-align: center;
+  padding-top: 117px;
+  padding-left: 17px;
+}
 /* -------------------------------------
 our Features -------------------------
 */
@@ -352,11 +375,100 @@ our services--------------------
 .services-card-body .text-area .icon-color {
   color: #ec1c24;
 }
-.our-services-cards .card-body {
-  -webkit-box-flex: 1;
-  -ms-flex: 1 1 auto;
-  flex: 1 1 auto;
-  padding: 37px;
+.our-Services .headline-center-container {
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+.our-services-card {
+  margin-bottom: 30px;
+  border: 1px solid #1f2a37;
+}
+.our-services-card {
+  overflow: hidden;
+  position: relative;
+  padding: 43px 30px 65px;
+  background: #1f2a37;
+  color: #aeaacb;
+  transition: all 0.3s linear;
+  -webkit-transition: all 0.3s linear;
+  -moz-transition: all 0.3s linear;
+  -o-transition: all 0.3s linear;
+  -ms-transition: all 0.3s linear;
+}
+.services-card-body .big-number {
+  position: absolute;
+  left: -10px;
+  top: 0;
+  font-size: 100px;
+  font-weight: 800;
+  font-family: "Montserrat", sans-serif;
+  line-height: 72px;
+  color: #222f3e;
+  transition: all 0.3s linear;
+  -webkit-transition: all 0.3s linear;
+  -moz-transition: all 0.3s linear;
+  -o-transition: all 0.3s linear;
+  -ms-transition: all 0.3s linear;
+}
+.services-card-body .icon-main {
+  position: absolute;
+  bottom: -88px;
+  right: -88px;
+  width: 188px;
+  height: 188px;
+  color: #fff;
+  background: #222f3e;
+  border-radius: 50%;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  transition: all 0.3s linear;
+  -webkit-transition: all 0.3s linear;
+  -moz-transition: all 0.3s linear;
+  -o-transition: all 0.3s linear;
+  -ms-transition: all 0.3s linear;
+}
+.services-card-body .icon-main i,
+.services-card-body .icon-main span {
+  position: absolute;
+  top: 19px;
+  left: 20px;
+  font-size: 35px;
+  line-height: 1;
+  color: #ffffff;
+}
+.services-card-body .content-box {
+  position: relative;
+  z-index: 1;
+}
+.services-card-body .content-box h5 {
+  line-height: 30px;
+  color: #fff;
+  margin-bottom: 10px;
+  transition: all 0.3s linear;
+  -webkit-transition: all 0.3s linear;
+  -moz-transition: all 0.3s linear;
+  -o-transition: all 0.3s linear;
+  -ms-transition: all 0.3s linear;
+  font-size: 18px;
+}
+.our-services-card:hover {
+  background: #222f3e;
+  color: #6d6d6d;
+}
+.our-services-card:hover .icon-main {
+  background: #1f2a37;
+}
+.our-services-card:hover .big-number {
+  color: #222f3e;
+}
+.services-card-body .content-box .btn-details {
+  display: inline-block;
+  margin-top: 30px;
+}
+.btn-details {
+  font-size: 14px;
+  font-weight: bold;
+  color: #d8d9dc;
 }
 /* ----------------
 our services end 
@@ -391,7 +503,7 @@ about allterscense Erp start
   height: 52px;
 }
 .view-more-link-btn a {
-  font-size: 16px;
+  font-size: 13px;
   text-transform: uppercase;
   color: white;
   font-family: "Montserrat";
@@ -445,7 +557,7 @@ live section start
 }
 .rightsection-image-with-link {
   padding: 30px;
-  background: #ffffff;
+  background: #192430;
   opacity: 0.9;
   border-radius: 4px;
   margin-bottom: 30px;
@@ -457,6 +569,19 @@ live section start
 .download-link a {
   color: #ec1c24;
 }
+.link-box-content h3 {
+  padding-top: 20px;
+  padding-bottom: 20px;
+  font-family: "Montserrat", sans-serif !important;
+  font-size: 20px;
+}
+.link-box-content p {
+  text-align: center;
+  font-family: "Comfortaa", sans-serif;
+  font-size: 15px;
+  padding: 3px;
+}
+
 /* live section end*/
 /* sponsor start */
 .article-eight {
@@ -553,6 +678,9 @@ blockquote:before {
 .imgae-round img {
   border-radius: 50%;
 }
+.testimonial-sec .testimonial-slider .carousel-inner .carousel-item {
+  height: 45vh;
+}
 /* -----------
 testimonial slider end
 ------
@@ -607,4 +735,38 @@ always upt to date----*/
 }
 .service-content-text {
   color: #fff;
+}
+.upto-date .img-thumbnail {
+  padding: 0.25rem;
+  background-color: transparent;
+  border: 0px solid #dee2e6;
+  border-radius: 0.25rem;
+  max-width: 100%;
+  height: auto;
+}
+/* -------------
+footer----------
+ */
+.article-ten {
+  padding-top: 120px;
+  padding-bottom: 120px;
+}
+.imageWrap {
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+.footer-nav-icon {
+  color: #fff;
+}
+.footer-row-wrapper {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-between;
+  align-content: stretch;
+}
+.footer-left-right {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  margin: 93px auto;
 }
