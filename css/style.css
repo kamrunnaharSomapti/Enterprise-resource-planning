@@ -53,10 +53,17 @@ a:hover {
   padding-top: 15px;
   padding-bottom: 15px;
 }
+.ptb-common-head-2 {
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
 /* 
 ---------
 navbar
  */
+a.nav-link.alt-cus-font {
+  font-family: "Comfortaa", cursive;
+}
 .nav-bg {
   background: rgba(0, 0, 0, 0.5);
 }
@@ -121,6 +128,13 @@ navbar
   width: 500%;
   margin: 0;
   left: 0;
+}
+.hero-slider-content {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  width: 100%;
+  height: 100%;
 }
 .hero-slider-content {
   display: flex;
@@ -199,7 +213,8 @@ navbar
   color: #fff;
   text-align: center;
 }
-.carousel-item {
+
+/* .carousel-item {
   height: 70vh;
   min-height: 350px;
   background: no-repeat center center scroll;
@@ -207,7 +222,12 @@ navbar
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
-}
+} */
+/* -----------------
+---------------------
+responsive for slider section
+-----------------
+ */
 
 /*slide end*/
 
@@ -470,6 +490,15 @@ our services--------------------
   font-weight: bold;
   color: #d8d9dc;
 }
+.our-services-card:hover .btn-details {
+  color: #ec1c24;
+}
+.center-btn {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
 /* ----------------
 our services end 
 --------------------------*/
@@ -507,6 +536,18 @@ about allterscense Erp start
   text-transform: uppercase;
   color: white;
   font-family: "Montserrat";
+}
+.iframe-container {
+  position: relative;
+  width: 100%;
+  height: 0;
+  padding-bottom: 27%;
+}
+.iframe-container iframe {
+  position: absolute;
+  top: 0px;
+  left: 0;
+  max-width: 100%;
 }
 
 /* about allterscense Erp start */
@@ -620,7 +661,7 @@ testimonial slider start
   padding-bottom: 120px;
 }
 .testimonial-sec .sec-heading {
-  margin-bottom: 8rem;
+  margin-bottom: 1rem;
 }
 
 #testimonial .client-img img {
@@ -697,10 +738,10 @@ always upt to date----*/
 }
 .separator.border-style-solid {
   border-bottom: 1px solid #ccc;
-  margin-top: 3rem;
+  margin-top: 2rem;
 }
 .separator.border-style-solid {
-  margin-bottom: 3rem;
+  margin-bottom: 2rem;
 }
 .row-inner {
   margin: 0px 20px;
@@ -769,4 +810,39 @@ footer----------
   flex-direction: column;
   text-align: center;
   margin: 93px auto;
+}
+footer .bottom-details {
+  width: 100%;
+  background: #222f3e;
+}
+footer .bottom-details .bottom_text {
+  font-family: "Comfortaa", cursive;
+  max-width: 1250px;
+  margin: auto;
+  padding: 20px 40px;
+  display: flex;
+  justify-content: space-between;
+}
+.bottom-details .bottom_text span,
+.bottom-details .bottom_text a {
+  font-size: 14px;
+  font-family: "Comfortaa", cursive;
+  font-weight: 300;
+  color: #fff;
+  opacity: 0.8;
+  text-decoration: none;
+}
+.bottom-details .bottom_text a:hover {
+  opacity: 1;
+  text-decoration: underline;
+}
+.bottom-details .bottom_text a {
+  margin-right: 10px;
+}
+/* responsive start */
+
+@media screen and (max-width: 414px) and (min-width: 320px) {
+  .iframe-container {
+    padding-bottom: 92%;
+  }
 }

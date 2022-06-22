@@ -41,7 +41,9 @@
           id="heroSliderNav"
         >
           <div class="container">
-            <a class="navbar-brand site-name" href="#">AlterSense</a>
+            <a class="navbar-brand site-name" href="#">
+              <img class="img-fluid img-responsive" style="width:186px" src="./Images/site-logo.png"> </img>
+            </a>
             <button
               aria-controls="navbarSupportedContent"
               aria-expanded="false"
@@ -53,22 +55,22 @@
             >
               <span class="navbar-toggler-icon"></span>
             </button>
-            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <div class="collapse navbar-collapse alt-navbar-cus" id="navbarSupportedContent">
               <ul class="navbar-nav ml-auto">
                 <li class="nav-item active">
-                  <a class="nav-link" href="#">Home</a>
+                  <a class="nav-link alt-cus-font" href="#">Home</a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link" href="#">About</a>
+                  <a class="nav-link alt-cus-font" href="#">About</a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link" href="#">Portfolio</a>
+                  <a class="nav-link alt-cus-font" href="#">Portfolio</a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link" href="#">Services</a>
+                  <a class="nav-link alt-cus-font" href="#">Services</a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link" href="#">Contact</a>
+                  <a class="nav-link alt-cus-font" href="#">Contact</a>
                 </li>
               </ul>
             </div>
@@ -89,12 +91,12 @@
             <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
           </ol>
           <div class="carousel-inner slides">
-            <div class="carousel-item active slide" style="background-image: url(/Images/Banner.jpg)">
-              <!-- <img
-                class="d-block w-100 img-fluid"
-                src="../Images/hero-slider.jpg"
+            <div class="carousel-item active slide" >
+              <img
+                class="d-block w-100 img-fluid img-responsive"
+                src="./Images/Banner.jpg"
                 alt="Second slide"
-              /> -->
+              />
               <div class="slide-content carousel-caption d-none d-md-block">
                 <div class="container">
                   <div class="hero-slider-content">
@@ -117,12 +119,12 @@
                 </div>
               </div>
             </div>
-            <div class="carousel-item slide"style="background-image: url(/Images/Banner.jpg)">
-              <!-- <img
-                class="d-block w-100"
-                src="../Images/hero-slider.png"
+            <div class="carousel-item slide">
+              <img
+                class="d-block w-100 img-responsive"
+                src="./Images/Banner.jpg"
                 alt="Second slide"
-              /> -->
+              />
               <div class="slide-content carousel-caption d-none d-md-block">
                 <div class="container">
                   <div class="hero-slider-content">
@@ -283,8 +285,8 @@
       <!-- about -->
       <!-- always up to date -->
       <section id="solution" class="articlesix section-bg-2" >
-      <div class="container">
-        <h2 class="sub-heading-style-one text-left pb-5">we arealways up to date</h2>
+      <div class="container updated-section">
+        <h2 class="ptb-common-head-2 sub-heading-style-one text-left">we arealways up to date</h2>
         <div class="row">
           <!-- you can apply loop here -->
          <div class="col-md-7">
@@ -419,10 +421,10 @@
                     <div class="col col-12 col-sm-12 col-md-12 col-lg-12">
                       <div class="article-heading-style-one text-center">
                         <h4 class="section-title-same">Our Features</h4>
-                        <h1 class="sub-heading-style-one">
+                        <h2 class="ptb-common-head-2 sub-heading-style-one">
                           Experience the best Hr & payroll solutions Features
                           ever
-                        </h1>
+                        </h2>
                       </div>
                     </div>
                   </div>
@@ -504,7 +506,7 @@
       <section id="ourServices" class="our-Services articlefive section-bg-2">
         <div class="container">
           <div class="row">
-            <div class="col-md-12 col-lg-12 col-sm-12 text-center headline-center-container">
+            <div class="ptb-common-head-2 col-md-12 col-lg-12 col-sm-12 text-center headline-center-container">
               <h4 class="sub-heading-style-one text-uppercase text-white">
                     We shape the perfect solution
                   </h4>
@@ -603,13 +605,20 @@
               </div>
             </div>
           </div>
+          <div class="row view-more-btn ">
+            <div class="col-md-12 hero-action-btn center-btn">
+             <div class="hero-action-btn">
+                    <a href="/solutions/" class="btn solid-btn">view more<i class="fa fa-angle-double-right" aria-hidden="true"></i></a>
+                  </div>
+            </div>
+          </div>
         </div>
       </section>
        <!-- services -->
       <!-- solution -->
       <section id="solution" class="articlesix section-bg">
       <div class="container">
-        <h2 class="sub-heading-style-one text-center pb-5">Our Solution</h2>
+        <h2 class="ptb-common-head-2 sub-heading-style-one text-center">Our Solution</h2>
         <div class="row">
           <!-- you can apply loop here -->
           <div class="cp col col-12 col-sm-12 col-md-6 col-lg-6">
@@ -789,17 +798,11 @@
      <section id="alterscenseErp" class="articleseven alterscense-erp section-bg-2">
       <div class="container">
         <div class="row" >
-          <div class="col col-12 col-sm-12 col-md-6 col-lg-6 ">
+          <div class="iframe-container col col-xs-12 col-12 col-sm-12 col-md-6 col-lg-6 ">
             <iframe width="560" height="315" src="https://www.youtube.com/embed/c9HfNg4a_Og" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-            <!-- <video class="erp-video" controls="" muted="">
-              <source
-                src="https://www.youtube.com/watch?v=c9HfNg4a_Og&ab_channel=Oracle"
-                type="video/mp4"
-              />
-            </video> -->
           </div>
-          <div class="col col-12 col-sm-12 col-md-6 col-lg-6 pl-5">
-            <h2 class="sub-heading-style-one">About AlterscenseERP</h2>
+          <div class="col col-xs-12 col-sm-12 col-md-6 col-lg-6 pl-5">
+            <h2 class="ptb-common-head-2 sub-heading-style-one">About AlterscenseERP</h2>
             <div class="about-erp">
               <p>
                 AlterscenseERP is a platform independent, ready and integrated ERP
@@ -811,18 +814,9 @@
                 provide scalability and exibility.
               </p>
             </div>
-
-            <div
-              class="contentBoxWrap call-to-action-section">
-              <div class="call-to-action-content">
-                <div class="view-more-link-btn solid-button ">
-                  <a href="" class="view-more-link">
-                    Read More About AlterscenseERP
-                    <i class="fa fa-angle-double-right"></i
-                  ></a>
-                </div>
-              </div>
-            </div>
+            <div class="hero-action-btn">
+                    <a href="/solutions/" class="btn solid-btn">Read More About AlterscenseER<i class="fa fa-angle-double-right" aria-hidden="true"></i></a>
+                  </div>
           </div>
         </div>
       </div>
@@ -841,10 +835,9 @@
                   <div class="col col-12 col-sm-12 col-md-4 col-lg-4">
                     <div class="erp-image-wrap">
                       <img
-                        data-src="https://www.alterscenseerp.net/media/original_images/Demo-icon.png"
+                        data-src=""
                         class="erp-live-image-left lazy img-fluid loaded"
-                        id="i1533626921_10"
-                        alt="Demo-icon"
+                        alt=""
                         width="194px"
                         height="134px"
                         src="https://www.prismerp.net/media/original_images/Demo-icon.png"
@@ -853,7 +846,7 @@
                     </div>
                   </div>
                   <div class="col col-12 col-sm-12 col-md-8 col-lg-8 live-demo-action-title">
-                    <h3 class="sub-heading-style-one">Schedule a Live Demo</h3>
+                    <h2 class="ptb-common-head-2 sub-heading-style-one">Schedule a Live Demo</h2>
                     <div>
                       <p class="text-muted">
                         Go for a free practical demonstration in order to
@@ -916,10 +909,10 @@
     </section>
       <!-- live section end -->
       <!-- sponsors -->
-      <section id="clients" class="clients-sec article-eight section-bg-2">
+      <section id="clients" class="article-nine clients-sec section-bg-2">
         <div class="container">
         <div class="sponsor-section-header mb-5">
-          <h3 class="sub-heading-style-one">Our satisfied <u class="red">clients</u></h3>
+          <h2 class="ptb-common-head-2 sub-heading-style-one">Our satisfied <u class="red">clients</u></h2>
           <div class="subheadline">More than 200 companies are improving Jibika HR &amp; Payroll software day by day.<br> <i>“We are grateful to our Clients, with whom we have developed the advanced software.“</i><br></div>
         </div>
         <div class="row mb-3" >
@@ -980,11 +973,11 @@
     </section>
       <!-- sponsors -->
       <!-- testimonial slider -->
-      <section id="testimonial" class="testimonial-sec article-nine section-bg">
+      <section id="testimonial" class="article-ten testimonial-sec  section-bg">
         <div class="container">
           <div class="row">
             <div class="col-12 sec-heading">
-              <h2 class="sub-heading-style-one text-center">great reviews</h2>
+              <h2 class="ptb-common-head-2 sub-heading-style-one text-center">great reviews</h2>
               <p class="text-center">Your valuable reviews are our inspiration.</p>
             </div>
             <div class="col-12">
@@ -1110,10 +1103,21 @@
             </div>
            
           
-        
-      </div>
+             </div>
+             
     </div>
   </section>
+  <div class="bottom-details">
+  <div class="bottom_text">
+    <span class="copyright_text"
+      >Copyright © 2022 <a href="#">AlterscenseERP</a>All rights reserved</span
+    >
+    <span class="policy_terms">
+      <a href="#">Privacy policy</a>
+      <a href="#">Terms & condition</a>
+    </span>
+  </div>
+</div>
 </footer>
 
       <!-- footer end -->
