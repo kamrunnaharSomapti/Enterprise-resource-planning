@@ -26,6 +26,10 @@ a {
 a:hover {
   text-decoration: none;
 }
+.section-padding {
+  padding-top: 120px;
+  padding-bottom: 120px;
+}
 .section-bg-2 {
   background-color: #192430;
 }
@@ -200,7 +204,7 @@ a.nav-link.alt-cus-font {
   color: #ffffff;
   background: #ec1c24;
   transition: all 0.3s ease-in;
-  font-family: "Roboto", sans-serif;
+  font-family: "Montserrat", cursive !important;
 }
 .slides .slide-content {
   position: absolute;
@@ -845,4 +849,38 @@ footer .bottom-details .bottom_text {
   .iframe-container {
     padding-bottom: 92%;
   }
+}
+
+/* ------solution page
+ */
+.section-padding-style-2 {
+  padding-top: 80px;
+  padding-bottom: 80px;
+}
+.solution-learmore-wrapper {
+  position: absolute;
+  top: 78%;
+  left: 21px;
+  color: #fff;
+  border-radius: 50%;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  transition: all 0.3s linear;
+  -webkit-transition: all 0.3s linear;
+  -moz-transition: all 0.3s linear;
+  -o-transition: all 0.3s linear;
+}
+.solution-learmore-wrapper a {
+  padding: 8px 8px;
+  border: 1px solid #ec1c24;
+  color: #ffffff;
+  background: #ec1c24;
+  transition: all 0.3s ease-in;
+  font-family: "Montserrat", cursive;
+  font-size: 12px;
+  font-weight: normal;
+}
+
+.our-solution-card:hover .btn-details {
+  color: #ffffff;
 }
