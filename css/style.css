@@ -643,7 +643,6 @@ live section start
   text-align: center;
 }
 .solo-sponsor-box {
-  border: 1px solid red;
   padding: 10px;
 }
 .solo-sponsor-box {
@@ -817,7 +816,7 @@ footer----------
 }
 footer .bottom-details {
   width: 100%;
-  background: #222f3e;
+  background: #192430;
 }
 footer .bottom-details .bottom_text {
   font-family: "Comfortaa", cursive;
@@ -854,8 +853,8 @@ footer .bottom-details .bottom_text {
 /* ------solution page
  */
 .section-padding-style-2 {
-  padding-top: 80px;
-  padding-bottom: 80px;
+  padding-top: 37px;
+  padding-bottom: 40px;
 }
 .solution-learmore-wrapper {
   position: absolute;
@@ -882,5 +881,41 @@ footer .bottom-details .bottom_text {
 }
 
 .our-solution-card:hover .btn-details {
+  color: #ffffff;
+}
+
+/* single bolg deatil solution */
+.fa-check:before {
+  content: "\f00c";
+  border: 1px solid #ec1c24;
+  border-radius: 50%;
+  width: 20px;
+  height: 20ppx;
+  height: 20px;
+  padding: 2px;
+}
+.separator.border-style-solid-blog {
+  margin-bottom: 10px;
+}
+.separator.border-style-solid-blog {
+  margin-top: 10px;
+  border-bottom: 1px solid #efefef;
+}
+.single-details-text-container {
+  margin-left: 37px;
+}
+.blog-images {
+  max-width: 100%;
+  width: 100%;
+  height: auto;
+  margin: 0 auto;
+}
+.blog-image-wrapper img {
+  max-width: 100%;
+  width: 100%;
+  height: auto;
+  margin: 0 auto;
+}
+.blog-details-steps li {
   color: #ffffff;
 }
