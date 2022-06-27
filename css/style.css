@@ -359,6 +359,12 @@ p {
   margin-bottom: 15px;
   margin-right: 15px;
 }
+.list-type-two-col li {
+  height: 94px;
+}
+/* .list-title {
+  height: 94px;
+} */
 .center-image-with-link img {
   text-align: center;
   padding-top: 117px;
@@ -369,7 +375,7 @@ our Features -------------------------
 */
 
 /* -------------------
-our services--------------------
+our module--------------------
  */
 .articlefive {
   padding-top: 120px;
@@ -506,8 +512,14 @@ our services--------------------
   justify-content: center;
   align-items: center;
 }
+.content-box div {
+  margin-left: 40px;
+}
+.content-box ul li {
+  list-style: disc;
+}
 /* ----------------
-our services end 
+our module end 
 --------------------------*/
 /* -------------our solution start---------------- */
 .articlesix {
@@ -527,6 +539,17 @@ about allterscense Erp start
 }
 .alterscense-erp .row {
   align-items: center;
+}
+.solution-title-wrap {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+.content-box-content h3 {
+  font-family: "cursive", sans-serif;
+  font-size: 22px;
+  font-weight: 500;
 }
 .erp-video {
   width: 100%;
@@ -889,7 +912,39 @@ footer .bottom-details .bottom_text {
 .lead-alt {
   height: 150px;
 }
-/* single bolg deatil solution */
+/* single bolgs page deatil solution */
+/* breadcumb-area start */
+.breadcrumb-area {
+  padding-top: 120px;
+  padding-bottom: 68px;
+  background-size: cover;
+  background-position: center;
+  overflow: hidden;
+  position: relative;
+  height: 250px;
+}
+.breadcrumb-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.breadcrumb {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 0 0;
+  margin-bottom: 1rem;
+  list-style: none;
+}
+.breadcrumb-content ol li,
+.breadcrumb-content ol li a {
+  color: #2e65f2;
+  font-weight: 700;
+  font-family: "Lato";
+}
+/* breadcumb-area end */
+
+/* article section start */
 .fa-check:before {
   content: "\f00c";
   border: 1px solid #ec1c24;
@@ -1003,4 +1058,35 @@ i[class*=" flaticon-"]:before {
   line-height: 1;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+}
+/* article section end */
+/* aside section start */
+.widget-area .widget {
+  background: #192430;
+  margin-bottom: 30px;
+  box-shadow: 0px 4px 30px rgb(142 142 142 / 20%);
+  border-radius: 8px 8px 0px 0px;
+}
+.aside-title {
+  color: #fff;
+  font-size: 24px;
+  margin-bottom: 20px;
+  padding-top: 40px;
+  padding-left: 24px;
+  padding-right: 24px;
+}
+.widget-area .widget ul {
+  padding-bottom: 40px;
+}
+.widget-area .widget ul li {
+  border-bottom: 1px solid #d3d3d3;
+  padding-bottom: 10px;
+  margin-bottom: 10px;
+  padding-left: 24px;
+  padding-right: 24px;
+}
+.widget-area .widget ul li a {
+  color: #fff;
+  font-weight: 700;
+  font-size: 16px;
 }
