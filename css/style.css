@@ -51,7 +51,7 @@ img {
 }
 .sub-heading-style-one {
   font-weight: 300;
-  font-family: "Montserrat", sans-serif !important;
+  font-family: "Montserrat", cursive !important;
   font-size: 38px;
   text-transform: capitalize;
   color: #fff;
@@ -64,6 +64,7 @@ img {
   padding-top: 20px;
   padding-bottom: 20px;
 }
+/*---------------- home page--------------------------- */
 /* 
 ---------
 navbar
@@ -72,7 +73,8 @@ a.nav-link.alt-cus-font {
   font-family: "Comfortaa", cursive;
 }
 .nav-bg {
-  background: rgba(0, 0, 0, 0.5);
+  /* background: rgba(0, 0, 0, 0.5); */
+  background: #222f3e;
 }
 .hero-slider-nav .site-name {
   color: #fff;
@@ -116,7 +118,7 @@ a.nav-link.alt-cus-font {
   transition: background-color 200ms linear;
   box-shadow: 2px 2px 6px #00000063;
 }
-@media only screen and (max-width: 767px) {
+/* @media only screen and (max-width: 767px) {
   .navbar-nav.ml-auto {
     background: rgba(0, 0, 0, 0.5);
   }
@@ -124,12 +126,30 @@ a.nav-link.alt-cus-font {
     font-size: 14px;
     font-weight: normal;
   }
-}
+} */
 
 /* slider */
+.image-one {
+  background-image: url("../Images/Banner.jpg");
+}
+.image-two {
+  background-image: url("../Images/Banner.jpg");
+}
+.image-three {
+  background-image: url("../Images/Banner.jpg");
+}
+.slider-back-image {
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 65vh;
+  min-height: 350px;
+}
 .slider-container {
   overflow: hidden;
+  margin-top: 65px;
 }
+
 .slider-container figure {
   position: relative;
   width: 500%;
@@ -212,7 +232,7 @@ a.nav-link.alt-cus-font {
 .slides .slide-content {
   position: absolute;
   right: 15%;
-  bottom: 15%;
+  bottom: 25%;
   left: 15%;
   z-index: 10;
   padding-top: 20px;
@@ -751,6 +771,51 @@ blockquote:before {
 .testimonial-sec .testimonial-slider .carousel-inner .carousel-item {
   height: 45vh;
 }
+/* sales support start */
+.sales-support-details {
+  padding: 20px 48px;
+  text-align: center;
+}
+.sales-section-title.article-same-text-style-one {
+  text-align: center;
+}
+.service-one__single {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background-color: #192430;
+  position: relative;
+  text-align: center;
+  padding: 38px 15px;
+  margin-bottom: 5px;
+}
+.service-one__icon {
+  position: relative;
+  color: white;
+}
+.service-one__title {
+  margin: 0;
+  font-size: 20px;
+  font-weight: 600;
+  color: white;
+  margin-top: 20px;
+  margin-bottom: 25px;
+  font-family: "Montserrat", cursive;
+}
+.service-one__title a {
+  color: inherit;
+  -webkit-transition: all 0.4s ease;
+  transition: all 0.4s ease;
+}
+.service-one__text {
+  margin: 0;
+  font-size: 14px;
+  font-family: "Comfortaa", sans-serif;
+  height: 71px;
+}
+/* sales support end */
 /* -----------
 testimonial slider end
 ------

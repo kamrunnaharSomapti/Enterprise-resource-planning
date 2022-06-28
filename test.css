@@ -1,62 +1,39 @@
 .carousel-item {
-  height: 100vh;
-  min-height: 300px;
+  height: 65vh;
+  min-height: 350px;
   background: no-repeat center center scroll;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
 }
-.carousel-caption {
-  bottom: 270px;
+
+#mainNavbar {
+  padding-left: 50px;
+  padding-top: 20px;
 }
-.carousel-caption h5 {
-  font-size: 45px;
-  text-transform: uppercase;
-  letter-spacing: 2px;
-  margin-top: 25px;
+
+.navbar-dark .navbar-brand {
+  font-family: "Source Serif Pro", serif;
 }
-.carousel-caption p {
-  width: 75%;
-  margin: auto;
-  font-size: 18px;
-  line-height: 1.9;
+
+.navbar-nav .nav-link {
+  font-family: "Source Serif Pro", serif;
 }
-.navbar-light .navbar-brand {
-  color: #fff;
-  font-size: 25px;
-  text-transform: uppercase;
-  font-weight: bold;
-  letter-spacing: 2px;
+
+.display-4 {
+  font-family: "Source Serif Pro", serif;
 }
-.navbar-light .navbar-nav .active > .nav-link,
-.navbar-light .navbar-nav .nav-link.active,
-.navbar-light .navbar-nav .nav-link.show,
-.navbar-light .navbar-nav .show > .nav-link {
-  color: #fff;
+
+.lead {
+  font-family: "Source Serif Pro", serif;
 }
-.navbar-light .navbar-nav .nav-link {
-  color: #fff;
+
+.navbar.scrolled {
+  background: rgb(34, 31, 31);
+  transition: background 500ms;
 }
-.navbar-toggler {
-  background: #fff;
-}
-.navbar-nav {
-  text-align: center;
-}
-.nav-link {
-  padding: 0.2rem 1rem;
-}
-.nav-link.active,
-.nav-link:focus {
-  color: #fff;
-}
-.navbar-toggler {
-  padding: 1px 5px;
-  font-size: 18px;
-  line-height: 0.3;
-}
-.navbar-light .navbar-nav .nav-link:focus,
-.navbar-light .navbar-nav .nav-link:hover {
-  color: #fff;
+
+.font-weight-light {
+  font-family: "Source Serif Pro", serif;
 }
