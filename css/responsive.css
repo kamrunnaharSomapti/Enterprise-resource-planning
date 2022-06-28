@@ -4,3 +4,21 @@
     left: 0%;
   }
 }
+
+@media (min-width: 320px) and (max-width: 576px) {
+  .hero-slider-content h2 {
+    font-size: 25px;
+    line-height: 27px;
+  }
+  .hero-slider-content p {
+    font-size: 17px;
+    line-height: 24px;
+  }
+  .slides .slide-content {
+    width: 100%;
+    bottom: 11%;
+  }
+  .slides .slide-content {
+    left: 1%;
+  }
+}
