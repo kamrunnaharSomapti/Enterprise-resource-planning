@@ -190,7 +190,7 @@ a.nav-link.alt-cus-font {
   display: flex;
   align-self: flex-start;
   flex-direction: column;
-  text-align: justify;
+  text-align: start;
   color: inherit;
   font-size: 48px;
   line-height: 1.25;
@@ -211,6 +211,7 @@ a.nav-link.alt-cus-font {
   flex-direction: column;
   color: inherit;
   font-family: "Comfortaa", sans-serif;
+  text-align: start;
   font-size: 20px;
   line-height: 25px;
   font-weight: 400;
