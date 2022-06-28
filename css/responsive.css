@@ -6,6 +6,7 @@
 }
 
 @media (min-width: 320px) and (max-width: 576px) {
+  /* slider */
   .hero-slider-content h2 {
     font-size: 25px;
     line-height: 27px;
@@ -20,5 +21,35 @@
   }
   .slides .slide-content {
     left: 1%;
+  }
+  /* feature */
+  .sub-heading-style-one {
+    font-size: 25px;
+    line-height: 27px;
+  }
+  .art-p-sx {
+    padding-top: 50px;
+    padding-bottom: 50px;
+  }
+  .services-List-block .list-type-two-col li {
+    max-width: 100%;
+  }
+  .imageBoxWrap {
+    padding-top: 0px;
+  }
+  .services-List-block .list-type-two-col li {
+    margin-bottom: 30px;
+    margin-right: 4px;
+  }
+  /* who we are */
+  .single-box-cintainer {
+    margin-bottom: 30px;
+  }
+  .image-right-align i {
+    font-size: 3em;
+  }
+  .content-box-content h3 {
+    font-size: 17px;
+    line-height: 24px;
   }
 }
