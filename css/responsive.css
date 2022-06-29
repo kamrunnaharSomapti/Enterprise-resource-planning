@@ -1,14 +1,14 @@
 /* slider responsive */
-@media only screen and (max-width: 600px) {
+/* @media only screen and (max-width: 600px) {
   .slides .slide-content {
     left: 0%;
   }
-}
+} */
 
 @media (min-width: 320px) and (max-width: 576px) {
   /* slider */
   .hero-slider-content h2 {
-    font-size: 25px;
+    font-size: 24px;
     line-height: 27px;
   }
   .hero-slider-content p {
@@ -24,7 +24,7 @@
   }
   /* feature */
   .sub-heading-style-one {
-    font-size: 25px;
+    font-size: 23px;
     line-height: 27px;
   }
   .art-p-sx {
@@ -48,8 +48,40 @@
   .image-right-align i {
     font-size: 3em;
   }
+  /* solution */
   .content-box-content h3 {
     font-size: 17px;
     line-height: 24px;
+  }
+  /* module */
+  .headline-center-container h2 b {
+    font-size: 25px;
+    line-height: 27px;
+  }
+  .row-inner .column-inner {
+    padding-bottom: 20px;
+  }
+  .iframe-container {
+    padding-bottom: 331px;
+  }
+  .about-erp p {
+    font-size: 15px;
+    line-height: 24px;
+  }
+}
+@media only screen and (min-width: 576px) {
+}
+@media (min-width: 768px) and (max-width: 991px) {
+  .video-text-container {
+    margin-top: 22%;
+  }
+  .rightsection-image-with-link {
+    margin-top: 7%;
+  }
+  .footer-left-right {
+    margin: 0px auto;
+  }
+  .content-box-content {
+    margin-left: 13px;
   }
 }
