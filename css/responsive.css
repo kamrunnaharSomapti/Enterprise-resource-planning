@@ -34,10 +34,17 @@
 }
 @media (min-width: 320px) and (max-width: 576px) {
   /* slider */
+  .hero-slider-content span {
+    margin-bottom: 0px;
+  }
   .hero-slider-content h2 {
-    font-size: 24px;
+    font-size: 22px;
     line-height: 27px;
   }
+  .slider-back-image {
+    height: 80vh;
+  }
+
   .hero-slider-content p {
     font-size: 17px;
     line-height: 24px;
@@ -50,6 +57,9 @@
     left: 1%;
   }
   /* feature */
+  .services-List-block .list-type-two-col li .list-title {
+    font-size: 14px;
+  }
   .sub-heading-style-one {
     font-size: 23px;
     line-height: 27px;
