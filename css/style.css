@@ -67,6 +67,9 @@ img {
   padding-top: 20px;
   padding-bottom: 20px;
 }
+.red {
+  color: #ec1c24;
+}
 /*---------------- home page--------------------------- */
 /* 
 ---------
@@ -728,6 +731,12 @@ live section start
 .sponsor-section-header .subheadline {
   color: #fff;
 }
+.clients-logo-wrapper {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
 /* sponsor end */
 /* -----------
 testimonial slider start
@@ -778,6 +787,7 @@ testimonial slider start
 #testimonial .carousel-control-prev,
 #testimonial .carousel-control-next {
   font-size: 36px;
+  bottom: 43%;
 }
 
 @media (max-width: 576px) {
