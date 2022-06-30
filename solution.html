@@ -6,6 +6,21 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Alterscense Solution Page</title>
     <script src="https://kit.fontawesome.com/ca058cf999.js"></script>
+    <script
+      src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+      integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js"
+      integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js"
+      integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+      crossorigin="anonymous"
+    ></script>
     <link
       rel="stylesheet"
       href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css"
@@ -13,14 +28,71 @@
     <link rel="stylesheet" href="./css/style.css" />
   </head>
   <body>
-    <div>
+    <section class="header-wrap" id="header">
+      <header class="navbar-wrap" id="navheader">
+        <nav
+          class="nav-bg navbar navbar-expand-lg  navbar-light hero-slider-nav "
+          id="heroSliderNav"
+        >
+          <div class="container">
+            <a class="navbar-brand site-name" href="#">
+              <img class="img-fluid img-responsive" style="width:186px" src="./Images/site-logo.png"> </img>
+            </a>
+            <button
+              aria-controls="navbarSupportedContent"
+              aria-expanded="false"
+              aria-label="Toggle navigation"
+              class="navbar-toggler"
+              data-target="#navbarSupportedContent"
+              data-toggle="collapse"
+              type="button"
+            >
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse alt-navbar-cus" id="navbarSupportedContent">
+              <ul class="navbar-nav ml-auto">
+                <li class="nav-item ">
+                  <a class="nav-link alt-cus-font" href="./index.html">Home</a>
+                </li>
+                <li class="nav-item active" >
+                  <a class="nav-link alt-cus-font" href="./solution.html">Solution</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link alt-cus-font" href="./blogs.html">Blog</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link alt-cus-font" href="#">Services</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link alt-cus-font" href="#">Contact</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </nav>
+      </header>
+    </section>
+    <main>
+      <section class="breadcrumb-area section-bg-2">
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-12">
+              <div class="breadcrumb-content">
+                <p>home</p>
+                <h2 class="sub-heading-style-one">Solution Page</h2>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
       <section
         id="ourSolution"
-        class="our-Solution section-padding-style-2 section-bg-2"
+        class="our-Solution section-padding-style-2 section-bg"
       >
         <div class="container">
           <div class="row">
-            <div class="our-services-cards col-lg-4 col-sm-6">
+            <div class="our-services-cards col-lg-4 col-md-6 col-sm-6">
               <div
                 class="our-services-card our-solution-card card border-0 shadow rounded-xs"
               >
@@ -40,18 +112,22 @@
                   </div>
 
                   <div class="content-box">
-                    <h5>Product Design</h5>
-                    <p class="text-muted lead-alt">
-                      With One solution ERP system, implementations are both
-                      faster and less expensive than traditional ERP. Modularity
-                      enables phased implementations according to your company’s
-                      need.
-                    </p>
+                    <h5>Accounting</h5>
+                    <div class="text-muted lead-alt">
+                      <ul>
+                        <li>Accounting Masters</li>
+                        <li>Journal Entry</li>
+                        <li>Accounts Receivable</li>
+                        <li>Accounts Payable</li>
+                        <li>Multi-Currencys</li>
+                        <li>Reports</li>
+                      </ul>
+                    </div>
                   </div>
                 </div>
               </div>
             </div>
-            <div class="our-services-cards col-lg-4 col-sm-6">
+            <div class="our-services-cards col-lg-4 col-md-6 col-sm-6">
               <div
                 class="our-services-card our-solution-card card border-0 shadow rounded-xs"
               >
@@ -64,23 +140,29 @@
                       ></span>
                     </div>
                     <div class="solution-learmore-wrapper">
-                      <a href="" class="btn-details"
+                      <a href="./singleSolution.html" class="btn-details"
                         ><i class="flaticon-right-arrow-1"></i> LEARN MORE</a
                       >
                     </div>
                   </div>
 
                   <div class="content-box">
-                    <h5>Product Design</h5>
-                    <p class="text-muted lead-alt">
-                      Our product design service lets you prototype, test and
-                      validate your ideas.
-                    </p>
+                    <h5>Supply Chain Management</h5>
+                    <div class="text-muted lead-alt">
+                      <ul>
+                        <li>Procurement</li>
+                        <li>Supplier</li>
+                        <li>Price Comparison</li>
+                        <li>Supplier Scorecard</li>
+                        <li>Purchase Analytics</li>
+                        <li>Key Reports</li>
+                      </ul>
+                    </div>
                   </div>
                 </div>
               </div>
             </div>
-            <div class="our-services-cards col-lg-4 col-sm-6">
+            <div class="our-services-cards col-lg-4 col-md-6 col-sm-6">
               <div
                 class="our-services-card our-solution-card card border-0 shadow rounded-xs"
               >
@@ -93,23 +175,29 @@
                       ></span>
                     </div>
                     <div class="solution-learmore-wrapper">
-                      <a href="" class="btn-details"
+                      <a href="./singleSolution.html" class="btn-details"
                         ><i class="flaticon-right-arrow-1"></i> LEARN MORE</a
                       >
                     </div>
                   </div>
 
                   <div class="content-box">
-                    <h5>Product Design</h5>
-                    <p class="text-muted lead-alt">
-                      Our product design service lets you prototype, test and
-                      validate your ideas.
-                    </p>
+                    <h5>Stock</h5>
+                    <div class="text-muted lead-alt">
+                      <ul>
+                        <li>Items and Pricing</li>
+                        <li>Stock Transactions</li>
+                        <li>Stock Summary</li>
+                        <li>Stock Ledger</li>
+                        <li>Serial No and Batch</li>
+                        <li>Stock Reports</li>
+                      </ul>
+                    </div>
                   </div>
                 </div>
               </div>
             </div>
-            <div class="our-services-cards col-lg-4 col-sm-6">
+            <div class="our-services-cards col-lg-4 col-md-6 col-sm-6">
               <div
                 class="our-services-card our-solution-card card border-0 shadow rounded-xs"
               >
@@ -122,23 +210,29 @@
                       ></span>
                     </div>
                     <div class="solution-learmore-wrapper">
-                      <a href="" class="btn-details"
+                      <a href="./singleSolution.html" class="btn-details"
                         ><i class="flaticon-right-arrow-1"></i> LEARN MORE</a
                       >
                     </div>
                   </div>
 
                   <div class="content-box">
-                    <h5>Product Design</h5>
-                    <p class="text-muted lead-alt">
-                      Our product design service lets you prototype, test and
-                      validate your ideas.
-                    </p>
+                    <h5>Sales Module</h5>
+                    <div class="text-muted lead-alt">
+                      <ul>
+                        <li>Customer</li>
+                        <li>Quotation & Invoice</li>
+                        <li>Territory</li>
+                        <li>Campaign</li>
+                        <li>Sales Analytics</li>
+                        <li>Sales Reports</li>
+                      </ul>
+                    </div>
                   </div>
                 </div>
               </div>
             </div>
-            <div class="our-services-cards col-lg-4 col-sm-6">
+            <div class="our-services-cards col-lg-4 col-md-6 col-sm-6">
               <div
                 class="our-services-card our-solution-card card border-0 shadow rounded-xs"
               >
@@ -151,23 +245,29 @@
                       ></span>
                     </div>
                     <div class="solution-learmore-wrapper">
-                      <a href="" class="btn-details"
+                      <a href="./singleSolution.html" class="btn-details"
                         ><i class="flaticon-right-arrow-1"></i> LEARN MORE</a
                       >
                     </div>
                   </div>
 
                   <div class="content-box">
-                    <h5>Product Design</h5>
-                    <p class="text-muted lead-alt">
-                      Our product design service lets you prototype, test and
-                      validate your ideas.
-                    </p>
+                    <h5>CRM</h5>
+                    <div class="text-muted lead-alt">
+                      <ul>
+                        <li>Lead</li>
+                        <li>Opportunity</li>
+                        <li>Contract</li>
+                        <li>Appointment</li>
+                        <li>Issue Support & Maintenance</li>
+                        <li>SMS & Social Media Integration</li>
+                      </ul>
+                    </div>
                   </div>
                 </div>
               </div>
             </div>
-            <div class="our-services-cards col-lg-4 col-sm-6">
+            <div class="our-services-cards col-lg-4 col-md-6 col-sm-6">
               <div
                 class="our-services-card our-solution-card card border-0 shadow rounded-xs"
               >
@@ -180,23 +280,29 @@
                       ></span>
                     </div>
                     <div class="solution-learmore-wrapper">
-                      <a href="" class="btn-details"
+                      <a href="./singleSolution.html" class="btn-details"
                         ><i class="flaticon-right-arrow-1"></i> LEARN MORE</a
                       >
                     </div>
                   </div>
 
                   <div class="content-box">
-                    <h5>Product Design</h5>
-                    <p class="text-muted lead-alt">
-                      Our product design service lets you prototype, test and
-                      validate your ideas.
-                    </p>
+                    <h5>HR</h5>
+                    <div class="text-muted lead-alt">
+                      <ul>
+                        <li>Employee</li>
+                        <li>Shift Management</li>
+                        <li>Leaves</li>
+                        <li>Attendance</li>
+                        <li>Loans</li>
+                        <li>Training & Performance</li>
+                      </ul>
+                    </div>
                   </div>
                 </div>
               </div>
             </div>
-            <div class="our-services-cards col-lg-4 col-sm-6">
+            <div class="our-services-cards col-lg-4 col-md-6 col-sm-6">
               <div
                 class="our-services-card our-solution-card card border-0 shadow rounded-xs"
               >
@@ -209,23 +315,29 @@
                       ></span>
                     </div>
                     <div class="solution-learmore-wrapper">
-                      <a href="" class="btn-details"
+                      <a href="./singleSolution.html" class="btn-details"
                         ><i class="flaticon-right-arrow-1"></i> LEARN MORE</a
                       >
                     </div>
                   </div>
 
                   <div class="content-box">
-                    <h5>Product Design</h5>
-                    <p class="text-muted lead-alt">
-                      Our product design service lets you prototype, test and
-                      validate your ideas.
-                    </p>
+                    <h5>Payroll</h5>
+                    <div class="text-muted lead-alt">
+                      <ul>
+                        <li>Salary Component</li>
+                        <li>Salary Structure</li>
+                        <li>Payroll Entry</li>
+                        <li>Salary Slip</li>
+                        <li>Salary Register</li>
+                        <li>Income Tax Slab</li>
+                      </ul>
+                    </div>
                   </div>
                 </div>
               </div>
             </div>
-            <div class="our-services-cards col-lg-4 col-sm-6">
+            <div class="our-services-cards col-lg-4 col-md-6 col-sm-6">
               <div
                 class="our-services-card our-solution-card card border-0 shadow rounded-xs"
               >
@@ -238,23 +350,28 @@
                       ></span>
                     </div>
                     <div class="solution-learmore-wrapper">
-                      <a href="" class="btn-details"
+                      <a href="./singleSolution.html" class="btn-details"
                         ><i class="flaticon-right-arrow-1"></i> LEARN MORE</a
                       >
                     </div>
                   </div>
 
                   <div class="content-box">
-                    <h5>Product Design</h5>
-                    <p class="text-muted lead-alt">
-                      Our product design service lets you prototype, test and
-                      validate your ideas.
-                    </p>
+                    <h5>Loans</h5>
+                    <div class="text-muted lead-alt">
+                      <ul>
+                        <li>Loan</li>
+                        <li>Loan Processes</li>
+                        <li>Disbursement and Repayment</li>
+                        <li>Loan Security</li>
+                        <li>Reports</li>
+                      </ul>
+                    </div>
                   </div>
                 </div>
               </div>
             </div>
-            <div class="our-services-cards col-lg-4 col-sm-6">
+            <div class="our-services-cards col-lg-4 col-md-6 col-sm-6">
               <div
                 class="our-services-card our-solution-card card border-0 shadow rounded-xs"
               >
@@ -267,23 +384,28 @@
                       ></span>
                     </div>
                     <div class="solution-learmore-wrapper">
-                      <a href="" class="btn-details"
+                      <a href="./singleSolution.html" class="btn-details"
                         ><i class="flaticon-right-arrow-1"></i> LEARN MORE</a
                       >
                     </div>
                   </div>
 
                   <div class="content-box">
-                    <h5>Product Design</h5>
-                    <p class="text-muted lead-alt">
-                      Our product design service lets you prototype, test and
-                      validate your ideas.
-                    </p>
+                    <h5>Projects</h5>
+                    <div class="text-muted lead-alt">
+                      <ul>
+                        <li>Projects</li>
+                        <li>Time Tracking</li>
+                        <li>Project Billing</li>
+                        <li>Project Profitability</li>
+                        <li>Reports</li>
+                      </ul>
+                    </div>
                   </div>
                 </div>
               </div>
             </div>
-            <div class="our-services-cards col-lg-4 col-sm-6">
+            <div class="our-services-cards col-lg-4 col-md-6 col-sm-6">
               <div
                 class="our-services-card our-solution-card card border-0 shadow rounded-xs"
               >
@@ -296,23 +418,29 @@
                       ></span>
                     </div>
                     <div class="solution-learmore-wrapper">
-                      <a href="" class="btn-details"
+                      <a href="./singleSolution.html" class="btn-details"
                         ><i class="flaticon-right-arrow-1"></i> LEARN MORE</a
                       >
                     </div>
                   </div>
 
                   <div class="content-box">
-                    <h5>Product Design</h5>
-                    <p class="text-muted lead-alt">
-                      Our product design service lets you prototype, test and
-                      validate your ideas.
-                    </p>
+                    <h5>Manufacturing</h5>
+                    <div class="text-muted lead-alt">
+                      <ul>
+                        <li>Production Plan</li>
+                        <li>Forecasting</li>
+                        <li>Bill of Materials</li>
+                        <li>Job Card</li>
+                        <li>Workstation & Operation</li>
+                        <li>Reports</li>
+                      </ul>
+                    </div>
                   </div>
                 </div>
               </div>
             </div>
-            <div class="our-services-cards col-lg-4 col-sm-6">
+            <div class="our-services-cards col-lg-4 col-md-6 col-sm-6">
               <div
                 class="our-services-card our-solution-card card border-0 shadow rounded-xs"
               >
@@ -325,47 +453,23 @@
                       ></span>
                     </div>
                     <div class="solution-learmore-wrapper">
-                      <a href="" class="btn-details"
+                      <a href="./singleSolution.html" class="btn-details"
                         ><i class="flaticon-right-arrow-1"></i> LEARN MORE</a
                       >
                     </div>
                   </div>
 
                   <div class="content-box">
-                    <h5>Product Design</h5>
-                    <p class="text-muted lead-alt">
-                      Our product design service lets you prototype, test and
-                      validate your ideas.
-                    </p>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div class="our-services-cards col-lg-4 col-sm-6">
-              <div
-                class="our-services-card our-solution-card card border-0 shadow rounded-xs"
-              >
-                <div class="services-card-body">
-                  <span class="big-number">12</span>
-                  <div class="row">
-                    <div class="icon-main">
-                      <span class="flaticon-tablet"
-                        ><i class="fa fa-desktop" aria-hidden="true"></i
-                      ></span>
+                    <h5>Quality</h5>
+                    <div class="text-muted lead-alt">
+                      <ul>
+                        <li>Goal and Procedure</li>
+                        <li>Quality Inspection</li>
+                        <li>Quality Review & Meeting</li>
+                        <li>Quality Action</li>
+                        <li>Reports</li>
+                      </ul>
                     </div>
-                    <div class="solution-learmore-wrapper">
-                      <a href="" class="btn-details"
-                        ><i class="flaticon-right-arrow-1"></i> LEARN MORE</a
-                      >
-                    </div>
-                  </div>
-
-                  <div class="content-box">
-                    <h5>Product Design</h5>
-                    <p class="text-muted lead-alt">
-                      Our product design service lets you prototype, test and
-                      validate your ideas.
-                    </p>
                   </div>
                 </div>
               </div>
@@ -373,6 +477,7 @@
           </div>
         </div>
       </section>
-    </div>
+    </main>
+    <script src="./Js/slider.js"></script>
   </body>
 </html>

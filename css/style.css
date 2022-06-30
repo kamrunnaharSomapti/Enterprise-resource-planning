@@ -472,7 +472,7 @@ our module--------------------
   font-weight: 800;
   font-family: "Montserrat", sans-serif;
   line-height: 72px;
-  color: #222f3e;
+  color: #2a3440;
   transition: all 0.3s linear;
   -webkit-transition: all 0.3s linear;
   -moz-transition: all 0.3s linear;
@@ -486,7 +486,7 @@ our module--------------------
   width: 188px;
   height: 188px;
   color: #fff;
-  background: #222f3e;
+  background: #2a3440;
   border-radius: 50%;
   -webkit-border-radius: 50%;
   -moz-border-radius: 50%;
@@ -522,7 +522,7 @@ our module--------------------
   font-size: 18px;
 }
 .our-services-card:hover {
-  background: #222f3e;
+  background: #16202b;
   color: #6d6d6d;
 }
 .our-services-card:hover .icon-main {
@@ -566,6 +566,9 @@ our module end
 }
 .articlesix .cp {
   padding: 10px;
+}
+.solution-single .contentBoxWrap .content-box-content a h3:hover {
+  color: #ec1c24;
 }
 /* -------------our solution end---------------- */
 /*------------ 
@@ -1032,7 +1035,7 @@ footer .bottom-details .bottom_text {
 }
 .solution-learmore-wrapper {
   position: absolute;
-  top: 78%;
+  top: 83%;
   left: 21px;
   color: #fff;
   border-radius: 50%;
@@ -1063,7 +1066,7 @@ footer .bottom-details .bottom_text {
 /* single bolgs page deatil solution */
 /* breadcumb-area start */
 .breadcrumb-area {
-  padding-top: 120px;
+  padding-top: 68px;
   padding-bottom: 68px;
   background-size: cover;
   background-position: center;
