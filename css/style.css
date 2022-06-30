@@ -1106,7 +1106,15 @@ footer .bottom-details .bottom_text {
 }
 /* breadcumb-area end */
 
-/* article section start */
+/* single solution page start */
+.single-solution .solution-details h2 {
+  color: white;
+  font-size: 25px;
+  font-family: "Montserrat", cursive;
+}
+.solution-details-steps li {
+  color: #ffffff;
+}
 .fa-check:before {
   content: "\f00c";
   border: 1px solid #ec1c24;
@@ -1141,6 +1149,7 @@ footer .bottom-details .bottom_text {
 .blog-details-steps li {
   color: #ffffff;
 }
+
 /* blog-sectin */
 .main-article-area .article-news-box {
   margin-bottom: 30px;
