@@ -11,6 +11,12 @@
   .hero-slider-content h2 {
     font-size: 24px;
   }
+  .services-card-body .content-box h5 {
+    font-size: 16px;
+  }
+  .services-card-body .content-box .btn-details {
+    margin-top: 57px;
+  }
 }
 @media (min-width: 320px) and (max-width: 576px) {
   /* slider */
