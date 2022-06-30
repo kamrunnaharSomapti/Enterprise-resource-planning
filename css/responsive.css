@@ -18,6 +18,20 @@
     margin-top: 57px;
   }
 }
+@media (min-width: 577px) and (max-width: 720px) {
+  .hero-slider-content h2 {
+    font-size: 32px;
+  }
+  .row-inner .column-inner {
+    margin-bottom: 20px;
+  }
+  .iframe-container {
+    padding-bottom: 62%;
+  }
+  .request-call .requet-call-action-content .sec-same-button a {
+    margin-bottom: 25px;
+  }
+}
 @media (min-width: 320px) and (max-width: 576px) {
   /* slider */
   .hero-slider-content h2 {
