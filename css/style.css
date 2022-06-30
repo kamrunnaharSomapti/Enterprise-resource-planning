@@ -745,6 +745,7 @@ testimonial slider start
 .article-nine {
   padding-top: 120px;
   padding-bottom: 120px;
+  background-color: #fff;
 }
 .testimonial-sec .sec-heading {
   margin-bottom: 1rem;
@@ -1250,4 +1251,35 @@ i[class*=" flaticon-"]:before {
   color: #fff;
   font-weight: 700;
   font-size: 16px;
+}
+/* csss for module page */
+.our-module.our-services-card {
+  padding: 43px 30px 90px;
+}
+.card {
+  position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  min-width: 0;
+  word-wrap: break-word;
+  background-color: #1f2a37;
+  background-clip: border-box;
+  border: 1pxsolidrgba (0, 0, 0, 0.125);
+  border-radius: 0.25rem;
+}
+.our-module-card {
+  overflow: hidden;
+  position: relative;
+  padding: 43px 30px 90px;
+  background: #1f2a37;
+  color: #aeaacb;
+  transition: all 0.3s linear;
+}
+.our-module-card {
+  margin-bottom: 30px;
 }
