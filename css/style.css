@@ -1454,3 +1454,86 @@ i[class*=" flaticon-"]:before {
     font-size: 100px;
   }
 }
+/* faq section start */
+.accordion .card {
+  background: #192430;
+  border: none;
+}
+.accordion .card .card-header {
+  background: none;
+  border: none;
+  padding: 0.4rem 1rem;
+  font-family: "Montserrat", sans-serif;
+}
+.accordion .card-header h2 span {
+  float: left;
+  margin-top: 10px;
+}
+.accordion .card-header .alt-btn {
+  color: #fff;
+  font-size: 1.04rem;
+  text-align: left;
+  position: relative;
+  font-weight: 500;
+  padding-left: 2rem;
+}
+.accordion .card-header .alt-btn:hover {
+  color: #fff;
+  font-size: 1.04rem;
+  text-align: left;
+  position: relative;
+  font-weight: 500;
+  padding-left: 2rem;
+}
+.accordion .card-header i {
+  font-size: 1.2rem;
+  font-weight: bold;
+  position: absolute;
+  left: 0;
+  top: 0px;
+}
+.accordion .card-header .alt-btn {
+  color: #fff;
+}
+.accordion .card-body {
+  color: #fff;
+  padding: 0.5rem 3rem;
+}
+.page-title {
+  margin: 3rem 0 3rem 1rem;
+  font-family: "Roboto", sans-serif;
+  position: relative;
+}
+.page-title::after {
+  content: "";
+  width: 80px;
+  position: absolute;
+  height: 3px;
+  border-radius: 1px;
+  background: #ec1c24;
+  left: 0;
+  bottom: -15px;
+}
+.accordion .highlight .alt-btn {
+  color: #ec1c24;
+}
+.accordion .highlight i {
+  transform: rotate(180deg);
+}
+/* .alt-card-header .btn {
+  display: inline-block;
+  font-weight: 400;
+  text-align: center;
+  vertical-align: middle;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  border: 1px solid transparent;
+  padding: 0.375rem 0.75rem;
+  font-size: 1rem;
+  line-height: 1.5;
+  border-radius: 0.25rem;
+  transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out,
+    border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+} */
