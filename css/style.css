@@ -573,6 +573,9 @@ our module end
 .solution-single .contentBoxWrap .content-box-content a h3:hover {
   color: #ec1c24;
 }
+.solution-icon-wrap i {
+  color: #fff;
+}
 /* -------------our solution end---------------- */
 /*------------ 
 about allterscense Erp start 
