@@ -109,6 +109,12 @@
   #testimonial .carousel-control-next {
     display: none;
   }
+  .display-mobile-only {
+    display: block;
+  }
+  .display-pc {
+    display: none;
+  }
 }
 @media only screen and (min-width: 576px) {
 }
@@ -124,5 +130,13 @@
   }
   .content-box-content {
     margin-left: 13px;
+  }
+}
+@media (min-width: 768px) {
+  .display-pc {
+    display: block;
+  }
+  .display-mobile-only {
+    display: none;
   }
 }
