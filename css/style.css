@@ -1343,7 +1343,9 @@ i[class*=" flaticon-"]:before {
   font-family: "comfortaa", sans-serif;
   color: #fff;
 }
-
+.single-input .fa-check:before {
+  border: 1px solid #fff;
+}
 .section-contact .header-section .big-title {
   position: absolute;
   bottom: 100%;
@@ -1363,10 +1365,9 @@ i[class*=" flaticon-"]:before {
 }
 
 .section-contact .form-contact .single-input i {
-  position: absolute;
   top: 5px;
   left: 15px;
-  color: #ec1c24;
+  color: #f7f6f6;
 }
 
 .section-contact .form-contact .single-input input,
@@ -1380,6 +1381,7 @@ i[class*=" flaticon-"]:before {
   font-size: 15px;
   text-transform: uppercase;
   transition: border 0.3s;
+  padding-top: 16px;
 }
 
 .section-contact .form-contact .single-input input::placeholder,
