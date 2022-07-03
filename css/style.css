@@ -1402,6 +1402,10 @@ i[class*=" flaticon-"]:before {
 
 .single-input i span {
   text-transform: capitalize;
+  font-size: 12px;
+  line-height: 3.2em;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 400;
 }
 .section-contact .form-contact .single-input {
   position: relative;
