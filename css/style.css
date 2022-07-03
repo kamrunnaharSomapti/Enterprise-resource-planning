@@ -1581,3 +1581,10 @@ i[class*=" flaticon-"]:before {
   transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out,
     border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
 } */
+/* footer color for all */
+.footer-section {
+  background-color: #152332;
+}
+.bottom-details {
+  background-color: #111d2a;
+}
