@@ -397,6 +397,7 @@ p {
   -webkit-box-pack: start;
   -ms-flex-pack: start;
   justify-content: flex-start;
+  cursor: pointer;
 }
 .services-List-block .list-type-two-col li .icon-image {
   width: 50px;
@@ -1043,6 +1044,9 @@ always upt to date----*/
 /* -------------
 footer----------
  */
+.footer-1st-column {
+  margin-top: 32px;
+}
 .footer-nav {
   display: flex;
   flex-direction: column;
@@ -1707,4 +1711,25 @@ i[class*=" flaticon-"]:before {
   left: 0;
   width: 100%;
   height: 100%;
+}
+.list-type-two-col li .content {
+  position: absolute;
+  bottom: 55px;
+  width: 400px;
+  background-color: #192430;
+  padding: 20px;
+  box-sizing: border-box;
+  border-radius: 4px;
+  visibility: hidden;
+  opacity: 0;
+  transition: 0.5s;
+  transform: translateX(-50%) translateY(-50px);
+}
+.list-type-two-col li:hover .content {
+  visibility: visible;
+  opacity: 1;
+  transform: translateX(-50%) translateY(0px);
+}
+#ourSolution .our-services-card {
+  height: 327px;
 }
