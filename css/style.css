@@ -1091,15 +1091,10 @@ footer----------
   text-align: center;
   margin: 93px auto;
 }
-footer .bottom-details {
-  width: 100%;
-  background: #192430;
-}
 footer .bottom-details .bottom_text {
   font-family: "Comfortaa", cursive;
-  max-width: 1250px;
   margin: auto;
-  padding: 20px 40px;
+  padding: 20px 0px;
   display: flex;
   justify-content: space-between;
 }
