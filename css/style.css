@@ -1156,6 +1156,21 @@ footer .bottom-details .bottom_text {
 /* single bolgs page deatil solution */
 /* breadcumb-area start */
 .breadcrumb-area {
+  background-image: url("");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+
+  width: 100vw;
+  background: black;
+  overflow: hidden;
+  background: #c33764;
+  background: -webkit-linear-gradient(rgba(29, 38, 113, 0.8), rgb(8 6 7 / 80%)),
+    url(https://bit.ly/2rlzaXi);
+  background: linear-gradient(rgba(29, 38, 113, 0.8), rgb(0 0 0 / 80%)),
+    url(https://www.jitterbit.com/app/uploads/2021/04/ERP-blog-header-2.jpg);
+}
+.breadcrumb-area {
   padding-top: 68px;
   padding-bottom: 68px;
   background-size: cover;
