@@ -1075,6 +1075,7 @@ footer----------
 .imageWrap {
   padding-top: 10px;
   padding-bottom: 10px;
+  margin-left: 11px;
 }
 .footer-nav-icon {
   color: #fff;
@@ -1181,6 +1182,15 @@ footer .bottom-details .bottom_text {
   color: #2e65f2;
   font-weight: 700;
   font-family: "Lato";
+}
+.breadcrumb-area-page-order {
+  display: flex;
+  flex-direction: row;
+  /* justify-content: space-evenly; */
+}
+.breadcrumb-area-page-order span {
+  color: #ec1c24;
+  margin: 0px 8px;
 }
 /* breadcumb-area end */
 
@@ -1727,4 +1737,48 @@ i[class*=" flaticon-"]:before {
 }
 #ourSolution .our-services-card {
   height: 327px;
+}
+/* contact us page */
+.alt-elements-parents {
+  display: flex;
+  flex-direction: row;
+}
+.alt-widget-container {
+  margin: 5px auto;
+}
+.alt-elements-parents .footer-icon {
+  margin-left: 0;
+  margin-right: 15px;
+}
+.alt-address-content h3 span {
+  font-size: 18px;
+  font-family: "Montserrat", cursive;
+}
+.alt-elements-parents .footer-icon {
+  margin-top: 15px;
+}
+.contact-us-right {
+}
+.break hr {
+  width: 100%;
+  border: 1px solid #bbbbbb;
+  color: white;
+}
+.social-media-links ul {
+  display: flex;
+  flex-direction: row;
+}
+.social-media-links ul li {
+  margin-right: 20px;
+}
+.map-div {
+  margin-right: 40px;
+}
+.social-facebook a {
+  background-color: #3b5998;
+  color: white;
+}
+.social-media-wrapper {
+  display: flex;
+  flex-direction: column;
 }
