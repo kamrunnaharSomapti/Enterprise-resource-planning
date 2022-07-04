@@ -1740,13 +1740,18 @@ i[class*=" flaticon-"]:before {
   border-radius: 4px;
   visibility: hidden;
   opacity: 0;
-  transition: 0.5s;
-  transform: translateX(-50%) translateY(-50px);
+  transition: 0.8s;
+  display: flex;
+  justify-content: center;
+  /* transform: translateX(-50%) translateY(-50px); */
 }
 .list-type-two-col li:hover .content {
   visibility: visible;
   opacity: 1;
-  transform: translateX(-50%) translateY(0px);
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  /* transform: translateX(-50%) translateY(0px); */
 }
 #ourSolution .our-services-card {
   height: 327px;
