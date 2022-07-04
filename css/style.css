@@ -1199,7 +1199,7 @@ footer .bottom-details .bottom_text {
 .breadcrumb-area-page-order {
   display: flex;
   flex-direction: row;
-  /* justify-content: space-evenly; */
+  justify-content: center;
 }
 .breadcrumb-area-page-order span {
   color: #ec1c24;
