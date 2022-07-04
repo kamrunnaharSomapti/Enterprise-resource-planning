@@ -13,3 +13,21 @@ $(function () {
     $nav.toggleClass("scrolled", $(this).scrollTop() > $nav.height());
   });
 });
+
+$(document).ready(function () {
+  const videosrc = $("#player-1").attr("src");
+  $(".video-player-button, .video-popup").on("click", function () {
+    if ($(".video-popup").hasClass("open")) {
+      $(".video-popup").removeClass("open");
+      $("#player-1").attr("src", "");
+    } else {
+      $(".video-popup").addClass("open");
+      if ($("#player-1").attr("src") == "") {
+        $("#player-1").attr("src", videosrc);
+      }
+    }
+  });
+});
+$("#myModal").on("shown.bs.modal", function () {
+  $("#myInput").trigger("focus");
+});

@@ -106,10 +106,7 @@
             <div class="row">
               <div class="col-12 col-lg-12 col-xl-12 col-md-12">
                 <div class="header-section text-center">
-                  <h2 class="title">
-                    Keep in <u class="red">touch</u>
-                    <span class="dot"></span>
-                  </h2>
+                  
                   <p class="description">
                     The Altersys ERP Software solution helps increase the
                     efficiency & accountability of the client's entire business
@@ -151,7 +148,23 @@
                   <div class="col-md-6">
                     <div class="single-input">
                       <i class="fas fa-check"> <span>subject*</span> </i>
-                      <input type="text" name="subject" placeholder="SUBJECT" />
+                      <!-- <input type="text" name="subject" placeholder="SUBJECT" />
+                      <label for="ice-cream-choice">Choose a flavor:</label> -->
+                    <input list="ice-cream-flavors" id="ice-cream-choice" name="ice-cream-choice" />
+                    <datalist id="ice-cream-flavors">
+                      <option value="Manufacturing">
+                      <option value="Trade">
+                      <option value="Production">
+                      <option value="Textile">
+                      <option value="Real Estate">
+                      <option value="Finance">
+                      <option value="Technology">
+                      <option value="Pharmaceutical">
+                      <option value="Construction">
+                      <option value="Food">
+                      <option value="Transport">
+
+                      </datalist>
                     </div>
                   </div>
                   <div class="col-12">
@@ -160,11 +173,16 @@
                       <textarea placeholder="YOUR MESSAGE"></textarea>
                     </div>
                   </div>
-                  <div class="col-12">
+               
+                   <div class="button-wrapper">
                     <div class="submit-input text-center">
                       <input type="submit" name="submit" value="SUBMIT NOW" />
                     </div>
+                    <div class="submit-input text-center">
+                      <input type="submit" name="submit" value=" Tap to Call" />
+                    </div>
                   </div>
+               
                 </div>
               </form>
             </div>
