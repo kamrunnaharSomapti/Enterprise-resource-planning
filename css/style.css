@@ -1826,3 +1826,6 @@ i[class*=" flaticon-"]:before {
   display: flex;
   flex-direction: column;
 }
+.solution-learmore-wrapper {
+  display: none;
+}
