@@ -1200,6 +1200,7 @@ footer .bottom-details .bottom_text {
   display: flex;
   flex-direction: row;
   justify-content: center;
+  text-transform: capitalize;
 }
 .breadcrumb-area-page-order span {
   color: #ec1c24;
