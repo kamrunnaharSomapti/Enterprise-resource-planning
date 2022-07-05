@@ -1510,7 +1510,7 @@ i[class*=" flaticon-"]:before {
   text-align: center;
 }
 
-.section-contact .form-contact .submit-input input {
+/* .section-contact .form-contact .submit-input input {
   margin-top: 40px;
   padding: 15px 30px;
   background-color: #ec1c24;
@@ -1520,6 +1520,25 @@ i[class*=" flaticon-"]:before {
   font-size: 16px;
   text-transform: uppercase;
   margin-left: 18px;
+} */
+.submit-input {
+  margin-top: 40px;
+  padding: 15px 30px;
+  background-color: #ec1c24;
+  color: #fff;
+  border: none;
+  font-family: "Montserrat", cursive;
+  font-size: 16px;
+  text-transform: uppercase;
+  margin-left: 18px;
+}
+.submit-input input {
+  border: none;
+  color: #fff;
+  background-color: #ec1c24;
+}
+.submit-input a {
+  color: #fff;
 }
 @media (max-width: 575.99px) {
   .section-contact {
