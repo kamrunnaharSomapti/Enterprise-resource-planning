@@ -115,9 +115,12 @@
   .display-pc {
     display: none;
   }
-  .list-type-two-col li:hover .content {
-    opacity: 0;
+  .list-type-two-col li .content {
+    display: none;
   }
+  /* .list-type-two-col li:hover .content {
+    opacity: 0;
+  } */
 }
 @media only screen and (min-width: 576px) {
 }
@@ -134,6 +137,9 @@
   .content-box-content {
     margin-left: 13px;
   }
+  .list-type-two-col li .content {
+    width: 0px;
+  }
 }
 @media (min-width: 768px) {
   .display-pc {
@@ -143,3 +149,8 @@
     display: none;
   }
 }
+/* @media (max-width: 600px) {
+  .list-type-two-col li .content {
+    width: 2% !important;
+  }
+} */
