@@ -118,9 +118,17 @@
   .list-type-two-col li .content {
     display: none;
   }
-  /* .list-type-two-col li:hover .content {
-    opacity: 0;
-  } */
+  /* bootom footer */
+  .policy_terms {
+    display: none;
+  }
+  .copyright_text .dis-none {
+    display: none;
+  }
+  .bottom_text {
+    display: flex !important;
+    justify-content: center !important;
+  }
 }
 @media only screen and (min-width: 576px) {
 }
