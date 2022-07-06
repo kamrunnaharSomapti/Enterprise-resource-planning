@@ -1853,3 +1853,6 @@ i[class*=" flaticon-"]:before {
 .filter-white {
   filter: brightness(0) invert(1);
 }
+.icon-cus-edit {
+  zoom: 2.8;
+}

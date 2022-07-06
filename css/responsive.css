@@ -129,6 +129,9 @@
     display: flex !important;
     justify-content: center !important;
   }
+  .icon-cus-edit {
+    zoom: 1.8;
+  }
 }
 @media only screen and (min-width: 576px) {
 }
