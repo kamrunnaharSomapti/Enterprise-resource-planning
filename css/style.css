@@ -1849,3 +1849,7 @@ i[class*=" flaticon-"]:before {
 .solution-learmore-wrapper {
   display: none;
 }
+
+.filter-white {
+  filter: brightness(0) invert(1);
+}
